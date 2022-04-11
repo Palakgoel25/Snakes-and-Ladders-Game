@@ -33,7 +33,7 @@ int p;
 cin>>p;
 if(p==1)
 {while(pos1!=25 && pos2!=25)
-{cout<<"Player's 1 turn!"<<" Press p to roll dice"<<endl;
+{cout<<"Player 1's turn!"<<" Press p to roll dice"<<endl;
 cin>>c;
 Player="Player 1";
 d1=1+(rand()%6);
